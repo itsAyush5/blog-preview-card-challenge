@@ -1,0 +1,65 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height for centering */
+    margin: 0; /* Remove default margin */
+  }
+
+  .card {
+    height: 435px;
+    width: 256px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column; 
+    box-shadow: 223px 223px 223px 223px rgba(0, 0, 0, 0);
+    /* align-items: center; */
+    /* text-align: center; */
+  }
+  .svg {
+    max-width: 100%; /* Scale down if necessary */
+    max-height: 200px; /* Limit height */
+    margin-bottom: 20px; /* Space between SVG and text */
+    border-radius: 0px;
+  }
+
+.cap {
+    font-weight: bold; /* Make the text bold */
+    margin-bottom: 10px; /* Space below the cap */
+    background-color: hsl(47, 88%, 63%);
+    display: inline-block;
+    text-align: left; /* Align text to the left */
+    padding: 5px 10px; /* Add some padding */
+    border-radius: 5px;
+    width: min-content;
+  }
+  .pb{
+    padding: 5px;
+  }
+  .hed{
+    font-weight: 45px;
+    font-size: larger;
+    padding: 6px;
+  }
+  #img{
+    height: 25px;
+    width: 25px;
+    padding: 2px;
+  }
+  .img{
+    display: inline-block;
+    padding: 5px;
+
+  }
+  .pb,.hed,.par,.img,.attribution,span{
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .attribution{
+    gap: 0px;
+  }
